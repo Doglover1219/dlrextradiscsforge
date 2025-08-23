@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "O": {
+      "item": "minecraft:gray_concrete_powder"
+    },
+    "X": {
+      "item": "minecraft:light_gray_concrete_powder"
+    }
+  },
+  "pattern": [
+    " X ",
+    "XOX",
+    " X "
+  ],
+  "result": {
+    "item": "dlrextradiscsforge:blank_music_disc"
+  },
+  "show_notification": true
+}
