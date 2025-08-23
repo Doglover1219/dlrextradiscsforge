@@ -3,6 +3,7 @@ package net.doglover.dlrextradiscsforge;
 import com.mojang.logging.LogUtils;
 import net.doglover.dlrextradiscsforge.item.ModCreativeModeTabs;
 import net.doglover.dlrextradiscsforge.item.ModItems;
+import net.doglover.dlrextradiscsforge.sound.ModSounds;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -27,6 +28,8 @@ public class DlrExtraDiscsForge {
 
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
+
+        ModSounds.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
