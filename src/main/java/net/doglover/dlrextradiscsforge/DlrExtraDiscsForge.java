@@ -44,6 +44,12 @@ public class DlrExtraDiscsForge {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.MUSIC_DISC_CREATOR);
+            event.accept(ModItems.MUSIC_DISC_CREATOR_MUSIC_BOX);
+            event.accept(ModItems.MUSIC_DISC_PRECIPICE);
+            event.accept(ModItems.MUSIC_DISC_TEARS);
+            event.accept(ModItems.MUSIC_DISC_LAVA_CHICKEN);
+
             event.accept(ModItems.BLANK_MUSIC_DISC);
         }
     }

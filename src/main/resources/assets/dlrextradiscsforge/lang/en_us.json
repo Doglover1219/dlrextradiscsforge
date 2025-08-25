@@ -7,11 +7,13 @@
   "item.dlrextradiscsforge.music_disc_tears": "Music Disc",
   "item.dlrextradiscsforge.music_disc_lava_chicken": "Music Disc",
 
-  "item.dlrextradiscsforge.music_disc_creator.desc": "Lena Raine — Creator",
-  "item.dlrextradiscsforge.music_disc_creator_music_box.desc": "Lena Raine — Creator (Music Box)",
-  "item.dlrextradiscsforge.music_disc_precipice.desc": "Aaron Cherof — Precipice",
-  "item.dlrextradiscsforge.music_disc_tears.desc": "Amos Roddy — Tears",
-  "item.dlrextradiscsforge.music_disc_lava_chicken.desc": "Lava Chicken — Hyper Potions",
+  "item.dlrextradiscsforge.music_disc_creator.desc": "Lena Raine - Creator",
+  "item.dlrextradiscsforge.music_disc_creator_music_box.desc": "Lena Raine - Creator (Music Box)",
+  "item.dlrextradiscsforge.music_disc_precipice.desc": "Aaron Cherof - Precipice",
+  "item.dlrextradiscsforge.music_disc_tears.desc": "Amos Roddy - Tears",
+  "item.dlrextradiscsforge.music_disc_lava_chicken.desc": "Lava Chicken - Hyper Potions",
+
+  "advancement.dlrextradiscsforge.root": "The Start of Evertyhing",
 
   "creativetab.extradiscs_tab": "ExtraDiscs"
 }

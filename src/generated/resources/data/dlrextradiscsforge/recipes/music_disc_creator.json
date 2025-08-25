@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "dlrextradiscsforge:blank_music_disc"
+  },
+  "result": "dlrextradiscsforge:music_disc_creator"
+}

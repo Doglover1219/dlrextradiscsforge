@@ -2,11 +2,9 @@ package net.doglover.dlrextradiscsforge.datagen;
 
 import net.doglover.dlrextradiscsforge.item.ModItems;
 import net.minecraft.data.PackOutput;
-import net.minecraft.data.recipes.FinishedRecipe;
-import net.minecraft.data.recipes.RecipeCategory;
-import net.minecraft.data.recipes.RecipeProvider;
-import net.minecraft.data.recipes.ShapedRecipeBuilder;
+import net.minecraft.data.recipes.*;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
 import java.util.function.Consumer;
@@ -18,6 +16,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> pWriter) {
+        // Blank Music Disc recipe
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.BLANK_MUSIC_DISC.get())
                 .pattern(" X ")
                 .pattern("XOX")
@@ -26,6 +25,94 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('O', Items.GRAY_CONCRETE_POWDER)
                 .unlockedBy(getHasName(Items.LIGHT_GRAY_CONCRETE_POWDER), has(Items.LIGHT_GRAY_CONCRETE_POWDER))
                 .unlockedBy(getHasName(Items.GRAY_CONCRETE_POWDER), has(Items.GRAY_CONCRETE_POWDER))
+                .save(pWriter);
+
+        // All vanilla music disc recipes
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModItems.BLANK_MUSIC_DISC.get()), RecipeCategory.MISC,
+                Items.MUSIC_DISC_13, 1)
+                .unlockedBy(getHasName(ModItems.BLANK_MUSIC_DISC.get()), has(ModItems.BLANK_MUSIC_DISC.get()))
+                .save(pWriter);
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModItems.BLANK_MUSIC_DISC.get()), RecipeCategory.MISC,
+                Items.MUSIC_DISC_CAT, 1)
+                .unlockedBy(getHasName(ModItems.BLANK_MUSIC_DISC.get()), has(ModItems.BLANK_MUSIC_DISC.get()))
+                .save(pWriter);
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModItems.BLANK_MUSIC_DISC.get()), RecipeCategory.MISC,
+                Items.MUSIC_DISC_BLOCKS, 1)
+                .unlockedBy(getHasName(ModItems.BLANK_MUSIC_DISC.get()), has(ModItems.BLANK_MUSIC_DISC.get()))
+                .save(pWriter);
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModItems.BLANK_MUSIC_DISC.get()), RecipeCategory.MISC,
+                Items.MUSIC_DISC_CHIRP, 1)
+                .unlockedBy(getHasName(ModItems.BLANK_MUSIC_DISC.get()), has(ModItems.BLANK_MUSIC_DISC.get()))
+                .save(pWriter);
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModItems.BLANK_MUSIC_DISC.get()), RecipeCategory.MISC,
+                Items.MUSIC_DISC_FAR, 1)
+                .unlockedBy(getHasName(ModItems.BLANK_MUSIC_DISC.get()), has(ModItems.BLANK_MUSIC_DISC.get()))
+                .save(pWriter);
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModItems.BLANK_MUSIC_DISC.get()), RecipeCategory.MISC,
+                Items.MUSIC_DISC_MALL, 1)
+                .unlockedBy(getHasName(ModItems.BLANK_MUSIC_DISC.get()), has(ModItems.BLANK_MUSIC_DISC.get()))
+                .save(pWriter);
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModItems.BLANK_MUSIC_DISC.get()), RecipeCategory.MISC,
+                Items.MUSIC_DISC_MELLOHI, 1)
+                .unlockedBy(getHasName(ModItems.BLANK_MUSIC_DISC.get()), has(ModItems.BLANK_MUSIC_DISC.get()))
+                .save(pWriter);
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModItems.BLANK_MUSIC_DISC.get()), RecipeCategory.MISC,
+                Items.MUSIC_DISC_STAL, 1)
+                .unlockedBy(getHasName(ModItems.BLANK_MUSIC_DISC.get()), has(ModItems.BLANK_MUSIC_DISC.get()))
+                .save(pWriter);
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModItems.BLANK_MUSIC_DISC.get()), RecipeCategory.MISC,
+                Items.MUSIC_DISC_STRAD, 1)
+                .unlockedBy(getHasName(ModItems.BLANK_MUSIC_DISC.get()), has(ModItems.BLANK_MUSIC_DISC.get()))
+                .save(pWriter);
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModItems.BLANK_MUSIC_DISC.get()), RecipeCategory.MISC,
+                Items.MUSIC_DISC_WARD, 1)
+                .unlockedBy(getHasName(ModItems.BLANK_MUSIC_DISC.get()), has(ModItems.BLANK_MUSIC_DISC.get()))
+                .save(pWriter);
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModItems.BLANK_MUSIC_DISC.get()), RecipeCategory.MISC,
+                Items.MUSIC_DISC_11, 1)
+                .unlockedBy(getHasName(ModItems.BLANK_MUSIC_DISC.get()), has(ModItems.BLANK_MUSIC_DISC.get()))
+                .save(pWriter);
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModItems.BLANK_MUSIC_DISC.get()), RecipeCategory.MISC,
+                Items.MUSIC_DISC_WAIT, 1)
+                .unlockedBy(getHasName(ModItems.BLANK_MUSIC_DISC.get()), has(ModItems.BLANK_MUSIC_DISC.get()))
+                .save(pWriter);
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModItems.BLANK_MUSIC_DISC.get()), RecipeCategory.MISC,
+                Items.MUSIC_DISC_OTHERSIDE, 1)
+                .unlockedBy(getHasName(ModItems.BLANK_MUSIC_DISC.get()), has(ModItems.BLANK_MUSIC_DISC.get()))
+                .save(pWriter);
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModItems.BLANK_MUSIC_DISC.get()), RecipeCategory.MISC,
+                Items.MUSIC_DISC_5, 1)
+                .unlockedBy(getHasName(ModItems.BLANK_MUSIC_DISC.get()), has(ModItems.BLANK_MUSIC_DISC.get()))
+                .save(pWriter);
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModItems.BLANK_MUSIC_DISC.get()), RecipeCategory.MISC,
+                Items.MUSIC_DISC_PIGSTEP, 1)
+                .unlockedBy(getHasName(ModItems.BLANK_MUSIC_DISC.get()), has(ModItems.BLANK_MUSIC_DISC.get()))
+                .save(pWriter);
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModItems.BLANK_MUSIC_DISC.get()), RecipeCategory.MISC,
+                Items.MUSIC_DISC_RELIC, 1)
+                .unlockedBy(getHasName(ModItems.BLANK_MUSIC_DISC.get()), has(ModItems.BLANK_MUSIC_DISC.get()))
+                .save(pWriter);
+
+        // All ExtraDiscs music disc recipes
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModItems.BLANK_MUSIC_DISC.get()), RecipeCategory.MISC,
+                ModItems.MUSIC_DISC_CREATOR.get(), 1)
+                .unlockedBy(getHasName(ModItems.BLANK_MUSIC_DISC.get()), has(ModItems.BLANK_MUSIC_DISC.get()))
+                .save(pWriter);
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModItems.BLANK_MUSIC_DISC.get()), RecipeCategory.MISC,
+                ModItems.MUSIC_DISC_CREATOR_MUSIC_BOX.get(), 1)
+                .unlockedBy(getHasName(ModItems.BLANK_MUSIC_DISC.get()), has(ModItems.BLANK_MUSIC_DISC.get()))
+                .save(pWriter);
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModItems.BLANK_MUSIC_DISC.get()), RecipeCategory.MISC,
+                ModItems.MUSIC_DISC_PRECIPICE.get(), 1)
+                .unlockedBy(getHasName(ModItems.BLANK_MUSIC_DISC.get()), has(ModItems.BLANK_MUSIC_DISC.get()))
+                .save(pWriter);
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModItems.BLANK_MUSIC_DISC.get()), RecipeCategory.MISC,
+                ModItems.MUSIC_DISC_TEARS.get(), 1)
+                .unlockedBy(getHasName(ModItems.BLANK_MUSIC_DISC.get()), has(ModItems.BLANK_MUSIC_DISC.get()))
+                .save(pWriter);
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModItems.BLANK_MUSIC_DISC.get()), RecipeCategory.MISC,
+                ModItems.MUSIC_DISC_LAVA_CHICKEN.get(), 1)
+                .unlockedBy(getHasName(ModItems.BLANK_MUSIC_DISC.get()), has(ModItems.BLANK_MUSIC_DISC.get()))
                 .save(pWriter);
     }
 }

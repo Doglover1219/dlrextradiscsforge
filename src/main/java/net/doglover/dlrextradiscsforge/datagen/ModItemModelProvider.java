@@ -18,6 +18,12 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         simpleItem(ModItems.BLANK_MUSIC_DISC);
+
+        simpleItem(ModItems.MUSIC_DISC_CREATOR);
+        simpleItem(ModItems.MUSIC_DISC_CREATOR_MUSIC_BOX);
+        simpleItem(ModItems.MUSIC_DISC_PRECIPICE);
+        simpleItem(ModItems.MUSIC_DISC_TEARS);
+        simpleItem(ModItems.MUSIC_DISC_LAVA_CHICKEN);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
