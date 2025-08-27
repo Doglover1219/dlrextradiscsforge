@@ -1,0 +1,50 @@
+{
+  "music_disc_creator": {
+    "sounds": [
+      {
+        "name": "dlrlaterdiscsforge:music_disc_creator",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_creator_music_box": {
+    "sounds": [
+      {
+        "name": "dlrlaterdiscsforge:music_disc_creator_music_box",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_precipice": {
+    "sounds": [
+      {
+        "name": "dlrlaterdiscsforge:music_disc_precipice",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_tears": {
+    "sounds": [
+      {
+        "name": "dlrlaterdiscsforge:music_disc_tears",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_lava_chicken": {
+    "sounds": [
+      {
+        "name": "dlrlaterdiscsforge:music_disc_lava_chicken",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_all_disc": {
+    "sounds": [
+      {
+        "name": "dlrlaterdiscsforge:music_disc_all_disc",
+        "stream": true
+      }
+    ]
+  }
+}

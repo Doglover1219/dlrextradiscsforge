@@ -1,8 +1,8 @@
 {
   "values": [
-    "dlrextradiscsforge:music_disc_creator",
-    "dlrextradiscsforge:music_disc_creator_music_box",
-    "dlrextradiscsforge:music_disc_precipice",
-    "dlrextradiscsforge:music_disc_tears"
+    "dlrlaterdiscsforge:music_disc_creator",
+    "dlrlaterdiscsforge:music_disc_creator_music_box",
+    "dlrlaterdiscsforge:music_disc_precipice",
+    "dlrlaterdiscsforge:music_disc_tears"
   ]
 }

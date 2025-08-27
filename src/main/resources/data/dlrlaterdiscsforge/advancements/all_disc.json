@@ -1,0 +1,48 @@
+{
+  "parent": "dlrlaterdiscsforge:root",
+  "display": {
+    "icon": {
+      "item": "dlrlaterdiscsforge:music_disc_all_disc"
+    },
+    "title": {
+      "translate": "advancements.dlrlaterdiscsforge.all_disc.title"
+    },
+    "description": {
+      "translate": "advancements.dlrlaterdiscsforge.all_disc.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "played_all_disc": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "dlrlaterdiscsforge:music_disc_all_disc"
+              ]
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:jukebox"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["played_all_disc"]
+  ]
+}

@@ -1,0 +1,36 @@
+package net.doglover.dlrlaterdiscsforge.datagen;
+
+import net.doglover.dlrlaterdiscsforge.DlrLaterDiscsForge;
+import net.doglover.dlrlaterdiscsforge.item.ModItems;
+import net.minecraft.data.PackOutput;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.Item;
+import net.minecraftforge.client.model.generators.ItemModelBuilder;
+import net.minecraftforge.client.model.generators.ItemModelProvider;
+import net.minecraftforge.common.data.ExistingFileHelper;
+import net.minecraftforge.registries.RegistryObject;
+
+public class ModItemModelProvider extends ItemModelProvider {
+    public ModItemModelProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
+        super(output, DlrLaterDiscsForge.MOD_ID, existingFileHelper);
+    }
+
+    @Override
+    protected void registerModels() {
+        simpleItem(ModItems.BLANK_MUSIC_DISC);
+
+        simpleItem(ModItems.MUSIC_DISC_CREATOR);
+        simpleItem(ModItems.MUSIC_DISC_CREATOR_MUSIC_BOX);
+        simpleItem(ModItems.MUSIC_DISC_PRECIPICE);
+        simpleItem(ModItems.MUSIC_DISC_TEARS);
+        simpleItem(ModItems.MUSIC_DISC_LAVA_CHICKEN);
+
+        simpleItem(ModItems.MUSIC_DISC_ALL_DISC);
+    }
+
+    private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/generated")).texture("layer0",
+                new ResourceLocation(DlrLaterDiscsForge.MOD_ID, "item/" + item.getId().getPath()));
+    }
+}

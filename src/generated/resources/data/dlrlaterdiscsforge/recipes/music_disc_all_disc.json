@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:gray_concrete_powder"
+    },
+    "B": {
+      "item": "dlrlaterdiscsforge:music_disc_creator"
+    },
+    "C": {
+      "item": "minecraft:music_disc_cat"
+    },
+    "D": {
+      "item": "minecraft:music_disc_blocks"
+    },
+    "E": {
+      "item": "dlrlaterdiscsforge:music_disc_tears"
+    },
+    "X": {
+      "item": "dlrlaterdiscsforge:blank_music_disc"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CXD",
+    "AEA"
+  ],
+  "result": {
+    "item": "dlrlaterdiscsforge:music_disc_all_disc"
+  },
+  "show_notification": true
+}
