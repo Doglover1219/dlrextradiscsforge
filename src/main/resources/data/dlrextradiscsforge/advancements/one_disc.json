@@ -1,0 +1,33 @@
+{
+  "parent": "dlrextradiscsforge:root",
+  "display": {
+    "icon": {
+      "item": "dlrextradiscsforge:music_disc_creator_music_box"
+    },
+    "title": {
+      "translate": "advancements.dlrextradiscsforge.one_disc.title"
+    },
+    "description": {
+      "translate": "advancements.dlrextradiscsforge.one_disc.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "got_any_music_disc": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:music_discs"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["got_any_music_disc"]
+  ]
+}

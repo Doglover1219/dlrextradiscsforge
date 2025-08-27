@@ -51,6 +51,8 @@ public class DlrExtraDiscsForge {
             event.accept(ModItems.MUSIC_DISC_LAVA_CHICKEN);
 
             event.accept(ModItems.BLANK_MUSIC_DISC);
+
+            event.accept(ModItems.MUSIC_DISC_ALL_DISC);
         }
     }
 

@@ -42,6 +42,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.MUSIC_DISC_LAVA_CHICKEN.get());
 
                         pOutput.accept(ModItems.BLANK_MUSIC_DISC.get());
+
+                        pOutput.accept(ModItems.MUSIC_DISC_ALL_DISC.get());
                     })
                     .build());
 

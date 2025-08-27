@@ -38,5 +38,13 @@
         "stream": true
       }
     ]
+  },
+  "music_disc_all_disc": {
+    "sounds": [
+      {
+        "name": "dlrextradiscsforge:music_disc_all_disc",
+        "stream": true
+      }
+    ]
   }
 }

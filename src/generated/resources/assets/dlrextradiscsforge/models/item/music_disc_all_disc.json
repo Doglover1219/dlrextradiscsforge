@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "dlrextradiscsforge:item/music_disc_all_disc"
+  }
+}

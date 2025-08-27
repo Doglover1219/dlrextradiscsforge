@@ -21,8 +21,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern(" X ")
                 .pattern("XOX")
                 .pattern(" X ")
-                .define('X', Items.LIGHT_GRAY_CONCRETE_POWDER)
-                .define('O', Items.GRAY_CONCRETE_POWDER)
+                .define('X', Items.GRAY_CONCRETE_POWDER)
+                .define('O', Items.LIGHT_GRAY_CONCRETE_POWDER)
                 .unlockedBy(getHasName(Items.LIGHT_GRAY_CONCRETE_POWDER), has(Items.LIGHT_GRAY_CONCRETE_POWDER))
                 .unlockedBy(getHasName(Items.GRAY_CONCRETE_POWDER), has(Items.GRAY_CONCRETE_POWDER))
                 .save(pWriter);
@@ -112,6 +112,20 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .save(pWriter);
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModItems.BLANK_MUSIC_DISC.get()), RecipeCategory.MISC,
                 ModItems.MUSIC_DISC_LAVA_CHICKEN.get(), 1)
+                .unlockedBy(getHasName(ModItems.BLANK_MUSIC_DISC.get()), has(ModItems.BLANK_MUSIC_DISC.get()))
+                .save(pWriter);
+
+        // The All-Disc recipe
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.MUSIC_DISC_ALL_DISC.get())
+                .pattern("ABA")
+                .pattern("CXD")
+                .pattern("AEA")
+                .define('A', Items.GRAY_CONCRETE_POWDER)
+                .define('B', ModItems.MUSIC_DISC_CREATOR.get())
+                .define('C', Items.MUSIC_DISC_CAT)
+                .define('D', Items.MUSIC_DISC_BLOCKS)
+                .define('E', ModItems.MUSIC_DISC_TEARS.get())
+                .define('X', ModItems.BLANK_MUSIC_DISC.get())
                 .unlockedBy(getHasName(ModItems.BLANK_MUSIC_DISC.get()), has(ModItems.BLANK_MUSIC_DISC.get()))
                 .save(pWriter);
     }

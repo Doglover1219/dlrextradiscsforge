@@ -24,6 +24,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.MUSIC_DISC_PRECIPICE);
         simpleItem(ModItems.MUSIC_DISC_TEARS);
         simpleItem(ModItems.MUSIC_DISC_LAVA_CHICKEN);
+
+        simpleItem(ModItems.MUSIC_DISC_ALL_DISC);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

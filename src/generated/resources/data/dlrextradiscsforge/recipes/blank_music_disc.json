@@ -3,10 +3,10 @@
   "category": "misc",
   "key": {
     "O": {
-      "item": "minecraft:gray_concrete_powder"
+      "item": "minecraft:light_gray_concrete_powder"
     },
     "X": {
-      "item": "minecraft:light_gray_concrete_powder"
+      "item": "minecraft:gray_concrete_powder"
     }
   },
   "pattern": [

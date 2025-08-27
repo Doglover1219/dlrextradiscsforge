@@ -1,5 +1,6 @@
-// 1.20.1	2025-08-24T21:45:24.1971875	Item Models: dlrextradiscsforge
+// 1.20.1	2025-08-26T15:51:20.8007579	Item Models: dlrextradiscsforge
 af8235052fd22c39d0c22dba12b8157fb40512e9 assets/dlrextradiscsforge/models/item/blank_music_disc.json
+907db561937f1c5a37fd578c84dbb2eef1fe1427 assets/dlrextradiscsforge/models/item/music_disc_all_disc.json
 bbfbb76e8637bd9780b600ab032932e9e10ff843 assets/dlrextradiscsforge/models/item/music_disc_creator.json
 4b80bd490ac1be384c423ac591a470f0b696d194 assets/dlrextradiscsforge/models/item/music_disc_creator_music_box.json
 6accf38e2fcebdc932703e6e252e127831e536c3 assets/dlrextradiscsforge/models/item/music_disc_lava_chicken.json

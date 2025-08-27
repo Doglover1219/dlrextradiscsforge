@@ -18,6 +18,8 @@ public class ModSounds {
     public static final RegistryObject<SoundEvent> MUSIC_DISC_TEARS = registerSoundEvents("music_disc_tears");
     public static final RegistryObject<SoundEvent> MUSIC_DISC_LAVA_CHICKEN = registerSoundEvents("music_disc_lava_chicken");
 
+    public static final RegistryObject<SoundEvent> MUSIC_DISC_ALL_DISC = registerSoundEvents("music_disc_all_disc");
+
     private static RegistryObject<SoundEvent> registerSoundEvents(String name) {
         return SOUND_EVENTS.register(name, () -> SoundEvent.createVariableRangeEvent(
                 new ResourceLocation(DlrExtraDiscsForge.MOD_ID, name)));

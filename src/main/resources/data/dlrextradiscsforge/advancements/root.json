@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "dlrextradiscsforge:blank_music_disc"
+    },
+    "title": {
+      "translate": "advancements.dlrextradiscsforge.root.title"
+    },
+    "description": {
+      "translate": "advancements.dlrextradiscsforge.root.description"
+    },
+    "background": "dlrextradiscsforge:textures/gui/advancements/background.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "got_blank_disc": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dlrextradiscsforge:blank_music_disc"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "got_blank_disc"
+    ]
+  ]
+}

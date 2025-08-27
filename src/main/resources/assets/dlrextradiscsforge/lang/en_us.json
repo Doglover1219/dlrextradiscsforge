@@ -6,14 +6,28 @@
   "item.dlrextradiscsforge.music_disc_precipice": "Music Disc",
   "item.dlrextradiscsforge.music_disc_tears": "Music Disc",
   "item.dlrextradiscsforge.music_disc_lava_chicken": "Music Disc",
+  "item.dlrextradiscsforge.music_disc_all_disc": "The All-Disc",
 
   "item.dlrextradiscsforge.music_disc_creator.desc": "Lena Raine - Creator",
   "item.dlrextradiscsforge.music_disc_creator_music_box.desc": "Lena Raine - Creator (Music Box)",
   "item.dlrextradiscsforge.music_disc_precipice.desc": "Aaron Cherof - Precipice",
   "item.dlrextradiscsforge.music_disc_tears.desc": "Amos Roddy - Tears",
   "item.dlrextradiscsforge.music_disc_lava_chicken.desc": "Lava Chicken - Hyper Potions",
+  "item.dlrextradiscsforge.music_disc_all_disc.desc": "C418, Lena Raine, Samuel Åberg, Aaron Cherof, Amos Roddy, and Hyper Potions",
 
-  "advancement.dlrextradiscsforge.root": "The Start of Evertyhing",
+  "advancements.dlrextradiscsforge.root.title": "Music to my ears",
+  "advancements.dlrextradiscsforge.root.description": "...Or not, I guess",
+  "advancements.dlrextradiscsforge.one_disc.title": "The first of many",
+  "advancements.dlrextradiscsforge.one_disc.description": "Obtain your first Music Disc",
+  "advancements.dlrextradiscsforge.vanilla_discs.title": "Well, that's old",
+  "advancements.dlrextradiscsforge.vanilla_discs.description": "Get every vanilla Music Disc",
+  "advancements.dlrextradiscsforge.extradiscs.title": "How modern of you",
+  "advancements.dlrextradiscsforge.extradiscs.description": "Get every ExtraDiscs Music Disc",
+  "advancements.dlrextradiscsforge.all_discs.title": "Gotta catch 'em all!",
+  "advancements.dlrextradiscsforge.all_discs.description": "Get all vanilla and ExtraDiscs Music Discs",
+
+  "advancements.dlrextradiscsforge.all_disc.title": "A Cacophany",
+  "advancements.dlrextradiscsforge.all_disc.description": "Play every music disc at the exact same time — with only one disc",
 
   "creativetab.extradiscs_tab": "ExtraDiscs"
 }
