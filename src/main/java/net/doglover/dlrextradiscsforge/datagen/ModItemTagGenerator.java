@@ -27,5 +27,11 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                         ModItems.MUSIC_DISC_TEARS.get(),
                         ModItems.MUSIC_DISC_LAVA_CHICKEN.get(),
                         ModItems.MUSIC_DISC_ALL_DISC.get());
+
+        this.tag(ItemTags.CREEPER_DROP_MUSIC_DISCS)
+                .add(ModItems.MUSIC_DISC_CREATOR.get(),
+                        ModItems.MUSIC_DISC_CREATOR_MUSIC_BOX.get(),
+                        ModItems.MUSIC_DISC_PRECIPICE.get(),
+                        ModItems.MUSIC_DISC_TEARS.get());
     }
 }
